@@ -29,7 +29,7 @@ public class B19RegulaMatch {
 			if(st==pa || (pa=='.' && i<str.length())){
 				return matchCore(str,pattern,i+1,j+2) || 
 					   matchCore(str,pattern,i+1,j) ||
-					   matchCore(str,pattern,i,j); 
+					   matchCore(str,pattern,i,j+2); 
 			}else{
 				/*
 				 *  如果该位置上字符和模式不匹配，说明 * 不起作用
