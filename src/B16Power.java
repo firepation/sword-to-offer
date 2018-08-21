@@ -10,6 +10,7 @@ public class B16Power {
 	/*
 	 * 考虑到 exponent 为正数、负数、零的情况
 	 * */
+	
 	public double power(double base,int exponent){
 		
 		if(base==0.0 && exponent<0){
