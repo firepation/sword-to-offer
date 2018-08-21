@@ -12,6 +12,7 @@ public class B08FindNextNode {
 	 *  根据给定的值查找该节点在中序遍历的下一个节点
 	 *  主要提供给外部类使用
 	*/ 
+	
 	public void findNextValue(int value){
 		Node node = findNextNode(value); 
 		if(node!=null)
