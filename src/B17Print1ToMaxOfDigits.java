@@ -10,6 +10,7 @@ public class B17Print1ToMaxOfDigits {
 	 * 这种做法并没有考虑到n值很大的情况，当
 	 * n很大时，int类型和long类型都会溢出
 	 * */
+	
 	public void method1(int n){
 		int num = 1;
 		int i=0;
