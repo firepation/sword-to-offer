@@ -37,6 +37,7 @@ public class B14MaxProductActerCounting {
 		return products[length];
 	}
 	
+	
 	// 利用贪婪算法
 	public int solution2(int length){
 		if(length<2)
