@@ -23,6 +23,7 @@ public class ReplaceBlank {
 		int newStrLength = count*2 + str.length;
 		char[] newStr = new char[newStrLength];
 		
+		
 		/*
 			从字符串后面开始匹配，如果为空格，则在新的数组中
 			替换为 %20，如果不是，则直接复制进新的字符串数组。
