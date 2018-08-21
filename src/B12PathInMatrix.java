@@ -12,6 +12,7 @@ public class B12PathInMatrix {
 	 * 这个格子。
 	 */
 	
+	
 	public static boolean hasPath(char[][] matrix,String str){
 		if(matrix==null || str==null)
 			return false;
