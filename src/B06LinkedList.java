@@ -90,6 +90,7 @@ public class LinkedList {
 			this.next = next;
 			this.value = value;
 		}
+		
 	}
 	
 	@Test
