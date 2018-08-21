@@ -2,8 +2,7 @@ import java.util.Random;
 
 import org.junit.Test;
 
-public class ArraySortUtil {
-	
+public class ArraySortUtil {	
 	/*
 	 * 排序的稳定性是指如果在排序的序列中，存在前后相同的两个
 	 * 元素的话，排序前和排序后他们的相对位置不发生变化。
