@@ -13,6 +13,7 @@ public class B15NumberOf1 {
 	 *  这个解法针对正数是完全可行的，但是碰到负数，
 	 *	右移之后左边第一位仍然是 1，这样便陷入的死循环。  
 	 */
+	
 	public void solution1(int n){
 		int count = 0;
 		while(n != 0){
