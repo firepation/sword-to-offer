@@ -10,6 +10,7 @@ public class B13RobotMoving {
 	 * 请问该机器人能够到达多少个格子。
 	 * */
 	
+	
 	// 提供给用户调用的方法
 	public int movingCount(int k,int rows,int cols){
 		if(k<0 || rows<0 || cols<0)
