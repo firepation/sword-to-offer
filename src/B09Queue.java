@@ -9,6 +9,7 @@ public class B09Queue {
 	 * 在队列头部删除节点的功能。
 	 */
 	
+	
 	private Stack<String> stack1 = new Stack<String>();
 	private Stack<String> stack2 = new Stack<String>();
 	public void appendTail(String str){
