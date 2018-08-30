@@ -2,7 +2,10 @@ package leetcode;
 import org.junit.Test;
 
 public class TreeDepth {
-	
+	/*
+	 * 参数为一棵树的根节点，找出这棵树的最小深度。
+	 * 最小深度为根节点到最近一个叶节点的深度。
+	 */
 	public int run(TreeNode root) {
 		if(root==null)
 			return 0;
