@@ -3,6 +3,12 @@ package chacpter5;
 import org.junit.Test;
 
 public class B45PrintMinNumber {
+    /*
+     * 题目：
+     * 输入一个正整数数组，把数组里面所有数字拼接成起来排成一个数，
+     * 打印能拼接出的所有数字中最小的一个。例如，输入数组{3,32,321}，则
+     * 打印出这3个数字能排成的最小数字321323
+     */
     public String solution(int [] numbers) {
         if(numbers==null || numbers.length==0)
             return "";
