@@ -11,6 +11,11 @@ public class B67StrToInt {
 		System.out.println(solution2("-100"));
 	}
 	
+	/*
+	 * 考虑的情况可以再多一点，例如数字
+	 * 有没有超过int类型的范围
+	 */
+	
 	// 牛客网上看到的版本
 	public int solution2(String str){
 		if(str==null || "".equals(str.trim()))
